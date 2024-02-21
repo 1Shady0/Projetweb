@@ -353,7 +353,7 @@ color: rgba(0, 81, 255, 0.767);
     background-color: rgba(0,0,0,0.4); 
     flex-direction: column;
     justify-content: center;
-    transform: translate(0px,-700px);
+    transform: translate(0px,-1000px);
     transition: 1s ease;
   }
 
