@@ -14,7 +14,7 @@ function apply(){
          ni.style.color="red";
          notif.style.transform ="translate(0px,0px)";
          setTimeout(function() {
-         notif.style.transform = "translate(0px,-200px)";
+         notif.style.transform = "translate(0px,-300px)";
        }, 2000);
        return 0;
     }
@@ -24,7 +24,7 @@ function apply(){
         ni.style.color="red";
         notif.style.transform ="translate(0px,0px)";
         setTimeout(function() {
-        notif.style.transform = "translate(0px,-200px)";
+        notif.style.transform = "translate(0px,-300px)";
       }, 2000);
     }
 
@@ -34,7 +34,7 @@ function apply(){
         ni.style.color="red";
         notif.style.transform ="translate(0px,0px)";
         setTimeout(function() {
-        notif.style.transform = "translate(0px,-200px)";
+        notif.style.transform = "translate(0px,-300px)";
       }, 2000);
     }
 
@@ -59,12 +59,12 @@ function openM () {
 
 function closeM () {
   var modal = document.getElementById("Modal");
-  modal.style.transform = "translate(0px,-700px)";
+  modal.style.transform = "translate(0px,-1000px)";
 }
 
 window.onclick = function(event) {
   var modal = document.getElementById("Modal");
   if (event.target == modal) {
-    modal.style.transform = "translate(0px,-700px)";
+    modal.style.transform = "translate(0px,-1000px)";
   }
 }
