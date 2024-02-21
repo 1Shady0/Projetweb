@@ -337,7 +337,7 @@ color: rgba(0, 81, 255, 0.767);
     align-self: center;
     max-width: fit-content;
     border-radius: 20px;
-    transform: translate(0px,-200px);
+    transform: translate(0px,-300px);
     transition: 1s ease;
 }
 .modal {
