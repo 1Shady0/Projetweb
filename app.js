@@ -44,7 +44,7 @@ function apply(){
         ni.style.color ="rgb(6, 158, 228)";
         notif.style.transform ="translate(0px,0px)";
         setTimeout(function() {
-        notif.style.transform = "translate(0px,-200px)";
+        notif.style.transform = "translate(0px,-300px)";
       }, 2000);}
 }
 
